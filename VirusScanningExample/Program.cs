@@ -1,6 +1,7 @@
 ﻿using Cloudmersive.APIClient.NETCore.VirusScan.Api;
 using Cloudmersive.APIClient.NETCore.VirusScan.Client;
 using Cloudmersive.APIClient.NETCore.VirusScan.Model;
+using Newtonsoft.Json;
 using System;
 using System.Diagnostics;
 using System.IO;
@@ -29,7 +30,7 @@ namespace VirusScanningExample
                 {
                     // Scan a file for viruses
                     VirusScanResult result = apiInstance.ScanFile(inputFile);
-                    Debug.WriteLine(result);
+                    Debug.WriteLine( JsonConvert.SerializeObject( result ));
                 }
                 catch (Exception e)
                 {

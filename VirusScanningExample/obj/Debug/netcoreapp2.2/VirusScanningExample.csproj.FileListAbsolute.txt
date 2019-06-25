@@ -6,3 +6,6 @@ C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\.NET-Core-Virus-Scanning-Exam
 C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\.NET-Core-Virus-Scanning-Example\VirusScanningExample\obj\Debug\netcoreapp2.2\VirusScanningExample.csproj.CoreCompileInputs.cache
 C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\.NET-Core-Virus-Scanning-Example\VirusScanningExample\obj\Debug\netcoreapp2.2\VirusScanningExample.AssemblyInfoInputs.cache
 C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\.NET-Core-Virus-Scanning-Example\VirusScanningExample\obj\Debug\netcoreapp2.2\VirusScanningExample.AssemblyInfo.cs
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\.NET-Core-Virus-Scanning-Example\VirusScanningExample\bin\Debug\netcoreapp2.2\VirusScanningExample.pdb
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\.NET-Core-Virus-Scanning-Example\VirusScanningExample\obj\Debug\netcoreapp2.2\VirusScanningExample.dll
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\.NET-Core-Virus-Scanning-Example\VirusScanningExample\obj\Debug\netcoreapp2.2\VirusScanningExample.pdb
