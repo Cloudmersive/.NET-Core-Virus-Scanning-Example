@@ -1,4 +1,9 @@
-﻿using System;
+﻿using Cloudmersive.APIClient.NETCore.VirusScan.Api;
+using Cloudmersive.APIClient.NETCore.VirusScan.Client;
+using Cloudmersive.APIClient.NETCore.VirusScan.Model;
+using System;
+using System.Diagnostics;
+using System.IO;
 
 namespace VirusScanningExample
 {
@@ -6,7 +11,31 @@ namespace VirusScanningExample
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Starting...");
+
+            var files = Directory.EnumerateFiles("C:\\temp");
+
+            foreach (var file in files)
+            {
+                // Configure API key authorization: Apikey
+                Configuration.Default.AddApiKey("Apikey", "e4c8ad3b-335b-4082-a297-f3153da07770");
+
+
+
+                var apiInstance = new ScanApi();
+                var inputFile = new System.IO.FileStream(file, System.IO.FileMode.Open); // System.IO.Stream | Input file to perform the operation on.
+
+                try
+                {
+                    // Scan a file for viruses
+                    VirusScanResult result = apiInstance.ScanFile(inputFile);
+                    Debug.WriteLine(result);
+                }
+                catch (Exception e)
+                {
+                    Debug.Print("Exception when calling ScanApi.ScanFile: " + e.Message);
+                }
+            }
         }
     }
 }
