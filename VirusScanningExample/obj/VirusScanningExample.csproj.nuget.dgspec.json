@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Cloudmersive.APIClient.NETCore.VirusScan": {
+              "target": "Package",
+              "version": "[1.2.5, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

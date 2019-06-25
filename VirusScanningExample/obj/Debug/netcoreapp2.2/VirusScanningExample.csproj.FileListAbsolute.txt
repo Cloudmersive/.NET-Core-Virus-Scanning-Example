@@ -1,0 +1,8 @@
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\.NET-Core-Virus-Scanning-Example\VirusScanningExample\bin\Debug\netcoreapp2.2\VirusScanningExample.deps.json
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\.NET-Core-Virus-Scanning-Example\VirusScanningExample\bin\Debug\netcoreapp2.2\VirusScanningExample.runtimeconfig.json
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\.NET-Core-Virus-Scanning-Example\VirusScanningExample\bin\Debug\netcoreapp2.2\VirusScanningExample.runtimeconfig.dev.json
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\.NET-Core-Virus-Scanning-Example\VirusScanningExample\bin\Debug\netcoreapp2.2\VirusScanningExample.dll
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\.NET-Core-Virus-Scanning-Example\VirusScanningExample\obj\Debug\netcoreapp2.2\VirusScanningExample.csprojAssemblyReference.cache
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\.NET-Core-Virus-Scanning-Example\VirusScanningExample\obj\Debug\netcoreapp2.2\VirusScanningExample.csproj.CoreCompileInputs.cache
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\.NET-Core-Virus-Scanning-Example\VirusScanningExample\obj\Debug\netcoreapp2.2\VirusScanningExample.AssemblyInfoInputs.cache
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\.NET-Core-Virus-Scanning-Example\VirusScanningExample\obj\Debug\netcoreapp2.2\VirusScanningExample.AssemblyInfo.cs
