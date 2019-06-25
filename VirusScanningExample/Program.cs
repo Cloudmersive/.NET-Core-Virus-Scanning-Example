@@ -24,17 +24,18 @@ namespace VirusScanningExample
 
 
                 var apiInstance = new ScanApi();
-                var inputFile = new System.IO.FileStream(file, System.IO.FileMode.Open); // System.IO.Stream | Input file to perform the operation on.
-
-                try
+                using (var inputFile = new System.IO.FileStream(file, System.IO.FileMode.Open))
                 {
-                    // Scan a file for viruses
-                    VirusScanResult result = apiInstance.ScanFile(inputFile);
-                    Debug.WriteLine( JsonConvert.SerializeObject( result ));
-                }
-                catch (Exception e)
-                {
-                    Debug.Print("Exception when calling ScanApi.ScanFile: " + e.Message);
+                    try
+                    {
+                        // Scan a file for viruses
+                        VirusScanResult result = apiInstance.ScanFile(inputFile);
+                        Debug.WriteLine(JsonConvert.SerializeObject(result));
+                    }
+                    catch (Exception e)
+                    {
+                        Debug.Print("Exception when calling ScanApi.ScanFile: " + e.Message);
+                    }
                 }
             }
         }
